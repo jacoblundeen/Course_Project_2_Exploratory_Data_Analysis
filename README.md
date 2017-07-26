@@ -1,7 +1,7 @@
 # Coursera - Exploratory Data Analysis End of Course Project
 This repository holds the plots and R code for the Coursera end of course project in Exploratory Data Analysis. The data needed for this project was downloaded from the course website. The data used is air pollutant data collected by the EPA from 1999 - 2008 for the United States.
 
-The R scripts for this project read in the data from a zip file, and then break down the data according to what is needed. That data is then plotted using either the base plotting functions or ggplot2. Six separate plots are created to answer the following six questions: 
+The R scripts for this project use readRDS() to read in the files, and then break down the data according to what is needed. That data is then plotted using either the base plotting functions or ggplot2. Six separate plots are created to answer the following six questions: 
 
 1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 2. Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
